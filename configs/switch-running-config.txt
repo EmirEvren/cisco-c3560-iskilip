@@ -1,0 +1,13 @@
+! Cisco WS-C3560-24PS — Running Configuration
+! IOS: 12.2(37)SE1 ADVIPSERVICESK9
+! Tarih: 2026-09-12
+!
+hostname Iskilip
+!
+interface Vlan1
+ ip address 10.19.2.254 255.255.255.0
+ no shutdown
+!
+ip default-gateway 10.19.2.1
+!
+end
