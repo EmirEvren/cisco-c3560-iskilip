@@ -1,8 +1,9 @@
-# Cisco WS-C3560-24PS — Ağ Yapılandırması, TFTP ile Konfigürasyon Yönetimi ve IOS Firmware Güncellemesi
+# Cisco WS-C3560-24PS — VLAN Yapılandırması, TFTP ile Konfigürasyon Yönetimi ve IOS Firmware Güncellemesi
 
-> Cisco Packet Tracer ortamında gerçekleştirilen bu laboratuvar çalışmasında;
-> bir C3560 switch'e IP adresi atanmış, TFTP sunucusu üzerinden cihaz konfigürasyonu geri yüklenmiş
-> ve IOS firmware güncellemesi adımları uygulanmıştır.
+> **Packet Tracer Lab Çalışması**
+> Bu projede Cisco WS-C3560-24PS switch üzerinde sıfırdan başlanarak:
+> VLAN 1 yönetim IP'si atandı, TFTP sunucusundan mevcut konfigürasyon geri yüklendi
+> ve IOS firmware güncelleme süreci uygulandı.
 
 ---
 
