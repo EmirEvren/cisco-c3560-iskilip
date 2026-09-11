@@ -1,22 +1,22 @@
 ! ============================================================
-! Switch: Iskilip (Corum Region — 10.19.2.0/24)
-! Role: Iskilip District Access Switch
-! Management IP: 10.19.2.254/24 | Gateway: 10.19.2.1
+! Switch: Nilufer (Bursa Region — 10.16.2.0/24)
+! Role: Nilufer District Access Switch
+! Management IP: 10.16.2.254/24 | Gateway: 10.16.2.1
 ! ============================================================
 
 enable
 configure terminal
 
-hostname Iskilip
+hostname Nilufer
 
 ! --- VLAN 1 Management Interface ---
 interface vlan 1
  no shutdown
- ip address 10.19.2.254 255.255.255.0
+ ip address 10.16.2.254 255.255.255.0
 exit
 
 ! --- Default Gateway ---
-ip default-gateway 10.19.2.1
+ip default-gateway 10.16.2.1
 
 ! --- Disable DNS lookup ---
 no ip domain lookup

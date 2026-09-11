@@ -1,24 +1,24 @@
 ! ============================================================
-! Switch: Iskilip (Corum Region — 10.19.2.0/24)
-! Role: Iskilip District Access Switch
-! Management IP: 10.19.2.254/24 | Gateway: 10.19.2.1
+! Switch: Cankaya (Ankara Region — 10.6.2.0/24)
+! Role: Cankaya District Access Switch + TFTP Server LAN
+! Management IP: 10.6.2.254/24 | Gateway: 10.6.2.1
 ! ============================================================
 
 enable
 configure terminal
 
-hostname Iskilip
+hostname Cankaya
 
 ! --- VLAN 1 Management Interface ---
 interface vlan 1
  no shutdown
- ip address 10.19.2.254 255.255.255.0
+ ip address 10.6.2.254 255.255.255.0
 exit
 
 ! --- Default Gateway ---
-ip default-gateway 10.19.2.1
+ip default-gateway 10.6.2.1
 
-! --- Disable DNS lookup ---
+! --- Disable DNS lookup (prevents delays on typos) ---
 no ip domain lookup
 
 ! --- Enable password ---
