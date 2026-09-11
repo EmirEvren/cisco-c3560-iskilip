@@ -1,0 +1,148 @@
+﻿! =============================================================================
+! Cisco WS-C3560-24PS-E Running Configuration
+! IOS Version  : 12.2(37)SE1 ADVIPSERVICESK9
+! Hostname     : Iskilip
+! Model        : WS-C3560-24PS-E
+! Serial Number: CAT1037RJF7
+! MAC Address  : 0030.F2D4.CE7C
+! Management IP: 10.19.2.254/24 (VLAN 1 SVI)
+! Gateway      : 10.19.2.1
+! Role         : Iskilip District Access Switch -- Corum City Network
+! Generated    : 2026-09-12
+! Source       : Restored via TFTP from 10.6.2.2 (file: Iskilip, 1531 bytes)
+! =============================================================================
+!
+version 12.2
+no service pad
+service timestamps debug datetime msec
+service timestamps log datetime msec
+no service password-encryption
+!
+hostname Iskilip
+!
+boot-start-marker
+boot-end-marker
+!
+!
+spanning-tree mode pvst
+spanning-tree extend system-id
+!
+!
+interface FastEthernet0/1
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/2
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/3
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/4
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/5
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/6
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/7
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/8
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/9
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/10
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/11
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/12
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/13
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/14
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/15
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/16
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/17
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/18
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/19
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/20
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/21
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/22
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/23
+ switchport mode access
+ no shutdown
+!
+interface FastEthernet0/24
+ switchport mode access
+ no shutdown
+!
+interface GigabitEthernet0/1
+ no shutdown
+!
+interface GigabitEthernet0/2
+ no shutdown
+!
+interface Vlan1
+ ip address 10.19.2.254 255.255.255.0
+ no shutdown
+!
+ip default-gateway 10.19.2.1
+!
+line con 0
+!
+line vty 0 4
+ login
+!
+line vty 5 15
+ login
+!
+!
+end

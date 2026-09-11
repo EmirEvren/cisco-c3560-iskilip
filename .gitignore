@@ -1,0 +1,19 @@
+﻿# Backup and temporary files
+*.bak
+*.log
+*.tmp
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Cisco Packet Tracer
+*.pkt.autosave
+
+# Editor and IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
